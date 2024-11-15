@@ -10,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class HomeComponent {
   public static Route = {
-    path: '/home',
+    path: '',
     component: HomeComponent
   };
 
