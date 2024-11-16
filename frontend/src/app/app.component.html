@@ -1,3 +1,28 @@
-<a>Link 1</a>
-<a>Link 2</a>
-<router-outlet />
+<div class="topnav">
+  <h1>Science, Translated</h1>
+  <div class="links">
+    <!-- <a class="active" routerLink="">Home</a> -->
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    <div class="dropdown" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: false }">
+      <button class="dropbtn">
+        Science News 
+      </button>
+      <div class="dropdown-content">
+        <hr>
+        <a routerLink="/health-and-med" routerLinkActive="active">Health and Medicine</a> <hr>
+        <a routerLink="/chem-and-biochem" routerLinkActive="active">Chemistry and Biochemistry</a> <hr>
+        <a routerLink="/matt-and-astro" routerLinkActive="active">Matter Energy and Astronomy</a> <hr>
+        <a routerLink="/soci-and-psych" routerLinkActive="active">Society and Psychology</a> <hr>
+        <a routerLink="/envr-and-eco" routerLinkActive="active">Environment and Ecology</a> <hr>
+      </div>
+    </div>
+    <a routerLink="/science-sparknotes" routerLinkActive="active" ariaCurrentWhenActive="page">Science Sparknotes</a>
+    <a routerLink="/science-myths" routerLinkActive="active">Science Myths</a>
+    <a routerLink="/journal" routerLinkActive="active">Journal</a>
+    <a routerLink="/mission" routerLinkActive="active">Mission</a>
+    <a routerLink="/get-involved" routerLinkActive="active">Get Involved</a>
+  </div>
+</div>
+<hr>
+<hr>
+<router-outlet></router-outlet>
