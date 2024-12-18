@@ -24,7 +24,7 @@
 .topnav a {
     font-family: 'LibreCaslon', serif;
     text-decoration: none; /* Remove underline */
-    font-size: 32px;
+    font-size: 25px;
 }
 
 /* link styling */
@@ -50,7 +50,7 @@
 .dropbtn {
     font-family: 'LibreCaslon', serif;
     background-color: white;
-    font-size: 32px;
+    font-size: 25px;
     color: black;
     border: none;
     cursor: pointer;
@@ -91,4 +91,8 @@
 
 .dropdown.active .dropbtn {
     color: #FF3232 ;
+}
+
+.lines {
+    padding-inline: 50px;
 }
