@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%; 
+    gap: 16px;
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-right: 0px; 
+    box-sizing: border-box;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    box-sizing: border-box;
+    padding-right: 16px;
+    line-height: 1.6; /* Better spacing between lines */
+}
+
+.right-column h1 {
+    font-family: 'BodoniModa', serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.right-column p {
+    margin: 0; 
+    padding: 10px 0;
+}
+
+.vl {
+    border-left: 1px solid black;
+    margin-top: 25px;
+    height: 5000px;
+}

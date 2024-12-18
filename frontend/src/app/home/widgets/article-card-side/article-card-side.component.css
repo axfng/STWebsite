@@ -1,0 +1,45 @@
+article {
+    display: flex;
+    align-items: center; 
+    padding: 5px;
+}
+
+.details {
+    flex: 1;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.details header h1 {
+    font-family: 'BodoniModa', serif;
+    font-weight: 800;
+    margin: 0; 
+    font-size: 30px;
+    line-height: 1.2; 
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #767676;
+    gap: 10px;
+    margin: 0;
+}
+
+.info p {
+    font-family: 'BigCaslon', serif;
+    font-weight: normal;
+    margin: 0; 
+}
+
+.preview {
+    font-size: 20px; 
+    color: black;
+    font-family: 'BigCaslon', serif;
+    font-weight: normal;
+    margin: 0; 
+    line-height: 1.5; 
+}

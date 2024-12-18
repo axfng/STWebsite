@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ArticleCardMainComponent } from './widgets/article-card-main/article-card-main.component';
+import { ArticleCardSideComponent } from './widgets/article-card-side/article-card-side.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [ArticleCardMainComponent, ArticleCardSideComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -13,8 +14,4 @@ export class HomeComponent {
     path: '',
     component: HomeComponent
   };
-
-  // constructor(route: ActivatedRoute, router: Router) {
-  //   router.navigateByUrl('/home');
-  // }
 }
