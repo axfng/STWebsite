@@ -1,35 +1,35 @@
-/* nav-bar styling */
 .topnav {
     background-color: white; 
-    /* padding: 10px;  */
     text-align: center; 
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
 }
 
 .topnav h1 {
     color: black; 
     margin: 0; 
-    font-size: 96px; /* Font size */
-    font-family: 'LibreCaslon', serif;
+    font-size: 96px;
+    font-family: 'BigCaslon';
+    font-weight: normal;
 }
 .topnav .links {
     padding: 10px;
-    display: flex; /* Enable flexbox for links */
-    justify-content: center; /* Center the links horizontally */
+    display: flex;
+    justify-content: center;
     gap: 20px;
 }
 
 .topnav a {
-    font-family: 'LibreCaslon', serif;
-    text-decoration: none; /* Remove underline */
+    font-family: 'BodoniModa', serif;
+    text-decoration: none; 
     font-size: 25px;
 }
 
 /* link styling */
 .links a:visited, .dropdown-content a:visited {
-    color: black; /* Match default link color */
+    color: black; 
 }
 
 .links a:hover {
@@ -48,7 +48,7 @@
 }
 
 .dropbtn {
-    font-family: 'LibreCaslon', serif;
+    font-family: 'BodoniModa', serif;
     background-color: white;
     font-size: 25px;
     color: black;
